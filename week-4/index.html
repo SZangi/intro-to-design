@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <title>Zangi's Documentation for 22.03</title>
 
 <xmp theme="journal" style="display:none;">
@@ -11,56 +11,64 @@
 
 <!-- This is a comment, it is ignored by the compiler/interpreter -->
 ## Week 4 - Sub-team Design Constraints Narrowed and Pin-Ups
+</br>
+<h4> Cooking Sub-Team</h4>
 
-Our broad goal for the project this term is constructing an intervention which will capture renewable energy and use it
-	in a way which benefits the community, or demonstrates the power of renewable sources. To accomplish this goal we have
-	seperated into three design sub-teams, each with a different focus area.
+Moving into week four, the cooking sub-team began focusing on identifying the design constraints which would arise from the
+	goal of designing a surface for cooking. We began by identifying 3 test meals which we used as metrics from which it
+	could be determined what was necessary to successfully cook food on an outdoor surface. From this thought experiment
+	we determined that three broad categories of constraints were necessary:
 
-<h2> Design Sub-Teams</h2>
+* Type of cooking
+* Level of heat
+* Speed of heat change
 
-<h4>Energy Collection </h4>
-			The energy collection sub-team is focusing on how we want to collect energy. They began with a variety of potential
-		energy sources and evaluated the pros and cons of each including but not limited to, energy density, ease of collection, and
-		reliability as a source of energy.
-			Our initial energy types included:
-				* Geothermal
-				* Solar (PV)
-				* Direct Solar (Solar mirrors, solar ovens, water heaters, etc.)
-				* Residual Heat (Compost, Sewage, etc.)
-				* Wind
-				* Rain
-			After deliberating on the benefits, feasiblity, and usefulness of each, we have decided to pursue a direct solar powered
-		energy intervention, and will be planning around using that as our energy source. The exact manner in which we will collect the energy
-		is still to be determined and this sub-team will focus on developing that further going forwards.
+Once we identified the broad categories of constraints we began to brainstorm the exact constraints we would need and what
+	potential design solutions that would meet those constraints would look like.
+
+<h4> Type of Cooking</h4>
+
+Test meals of grilled chicken kabobs, grilled beef, tomatoes and rice, and a quinoa based Tex Mex style dish, were
+	used to determine our constraints. For all of these we quickly realized the common denominator of how heat was provided
+	would be a hot cooking surface, such as one provided by a grill, or diner style flat top, rather than a heated space,
+	such as an oven, or pressure cooker.
+
+This led us to determine that the optimal cooking surface would be diner style flat top, ideally approximately 2 ft x 5 ft,
+	to maximize the amount of cooking that could be accomplished at once, but with the size open to change.
+
+<h4> Level of Heat</h4>
+
+Levels of heat that will be required to heat the grill were again determined using our test meals as bases.<br>
+To fully cook chicken, an internal temperature of at least 145 <sup>o</sup>F is required, which requires a surface temp of at least 325 <sup> o</sup>F.
+To fully cook beef, an internal temperature of at least 160 <sup>o</sup>F is required, which requires a surface temp of at least 350-375 <sup>o</sup>F.
+However, most beef also requires a sear, which requires surface temperatures of up to 400 <sup>o</sup>F. This gives us the upper bound of the temperatures
+	which we want for our grill to be able to achieve.
+
+For cooking the vegetables required for all of these dishes, one generally wants a steady level of heat delivery at approximately the temperature
+	which the food should eventually reach. As most vegetables are cooked at around the boiling point of water, this would
+	yield a lower temperature requirement of around 212 <sup>o</sup>F.
+
+Combining these requirements, we find that we need a cook top surface which is capable of providing different levels of heat,
+	either at different times, or in different spaces, with heating requirements of:
+
+* 212 <sup>o</sup>F
+* 325 <sup>o</sup>F
+* 350 <sup>o</sup>F
+* 400 <sup>o</sup>F
+
+This either necessitates a single small cooking surface, or a larger cooking surface with different areas capable of providing
+	constant amounts of heat at different levels, i.e. a flat top with a hot section, a warm section, and a cool section.
 
 
-<h4>Energy Storage</h4>
-			The energy storage sub-team is focusing on how the energy which is delivered by the energy capture team will be stored
-		and delivered to the energy usage sub-team. Several ideas have been proposed which mesh well with our proposed energy capture
-		method of direct solar, and the team will be working on narrowing down their prospects and choosing a specific idea
-		to deliver the energy to the use sub-team in the future.
-			Current energy storage ideas include:
-				* Chemical Batteries
-				* Fuel Cells
-				* Heat reservoirs
-				* Kinetic energy batteries
-				* Gravitation potential energy batteries
-----		The current frontrunner in terms of being feasible to build with the limitations we have on our space while still being
-		useful as a form of energy storage is hydrolysis fuel cells, as basic ones can be easily constructed, and they store large
-		amounts of energy.
+<h4> Speed of Heat Change</h4>
 
-<h4>Energy Usage & Team Management</h4>
-			The energy usage sub-team is focused on determining how we actually use the energy which is collected by the intervention. This is the team which I am on. Based on initial brainstorming
-		this group mainly focused on heating based intervention uses and electricity based intervention uses.
-			Initial use ideas include:
-				* Electric Bike
-				* Water heaters
-				* AC units
-				* Building heating
-				* Bike charger
-				* Renewable powered lighting
-			After the energy collection direction was cemented, we focused specifically on interventions which could easily use
-		solar powered heat, such as solar ovens, and have been compiling various precedents for direct solar powered heating.
+If the way in which variable heat delivery is provided is through changing the temperature of the entire cook top, there will
+	need to be constraints on the speed at which the heating level of the surface changes temperature, as a grill which takes
+	20 min to go from 400 <sup>o</sup>F to 350 <sup>o</sup>F is of very little practical use for cooking multiple things.
+
+The constraints we determined for this were based on going from a sear to a regualar meat cooking level, which gave us
+	a minimum temperature change speed of 0.833 <sup>o</sup>F/sec.
+
 
 ---
 Precedent websites:
