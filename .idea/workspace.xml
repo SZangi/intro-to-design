@@ -46,20 +46,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="301" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1631739284773" />
-    <state x="1339" y="167" key="FileChooserDialogImpl" timestamp="1632109900692">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="842" y="98" key="FileChooserDialogImpl" timestamp="1634415126942">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="842" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1634415126942" />
     <state x="1339" y="167" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1632109900692" />
     <state x="315" y="0" key="SettingsEditor" timestamp="1632109901763">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="210" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1631739039069" />
     <state x="315" y="0" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1632109901763" />
-    <state x="758" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1633992041713">
+    <state x="758" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1635102522893">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="505" y="195" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1633325953939" />
-    <state x="758" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1633992041713" />
+    <state x="505" y="195" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1634415090127" />
+    <state x="758" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1635102522893" />
     <state x="518" y="256" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631739116032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<title>Zangi's Documentation for 22.03</title>
+
+<xmp theme="journal" style="display:none;">
+
+<topbar style="display:none;">
+	<item><a href="../index.html">Home</a></item>
+	<item><a href="../about.html">About</a></item>
+</topbar>
+
+<!-- This is a comment, it is ignored by the compiler/interpreter -->
+## Week 6 - Initial Prototyping and Concept Mock-ups
+</br>
+<h4> Cooking Sub-Team</h4>
+
+Moving into week six,
+
+* Type of cooking
+* Level of heat
+* Speed of heat change
+
+Once we identified the broad categories of constraints we began to brainstorm the exact constraints we would need and what
+	potential design solutions that would meet those constraints would look like.
+
+<h4> Design Integration Team</h4>
+
+Test meals of grilled chicken kabobs, grilled beef, tomatoes and rice, and a quinoa based Tex Mex style dish, were
+	used to determine our constraints. For all of these we quickly realized the common denominator of how heat was provided
+	would be a hot cooking surface, such as one provided by a grill, or diner style flat top, rather than a heated space,
+	such as an oven, or pressure cooker.
+
+This led us to determine that the optimal cooking surface would be diner style flat top, ideally approximately 2 ft x 5 ft,
+	to maximize the amount of cooking that could be accomplished at once, but with the size open to change.
+
+<h4> Energy Transport Methods</h4>
+
+Levels of heat that will be required to heat the grill were again determined using our test meals as bases.<br>
+To fully cook chicken, an internal temperature of at least 145 <sup>o</sup>F is required, which requires a surface temp of at least 325 <sup> o</sup>F.
+To fully cook beef, an internal temperature of at least 160 <sup>o</sup>F is required, which requires a surface temp of at least 350-375 <sup>o</sup>F.
+However, most beef also requires a sear, which requires surface temperatures of up to 400 <sup>o</sup>F. This gives us the upper bound of the temperatures
+	which we want for our grill to be able to achieve.
+
+For cooking the vegetables required for all of these dishes, one generally wants a steady level of heat delivery at approximately the temperature
+	which the food should eventually reach. As most vegetables are cooked at around the boiling point of water, this would
+	yield a lower temperature requirement of around 212 <sup>o</sup>F.
+
+Combining these requirements, we find that we need a cook top surface which is capable of providing different levels of heat,
+	either at different times, or in different spaces, with heating requirements of:
+
+* 212 <sup>o</sup>F
+* 325 <sup>o</sup>F
+* 350 <sup>o</sup>F
+* 400 <sup>o</sup>F
+
+This either necessitates a single small cooking surface, or a larger cooking surface with different areas capable of providing
+	constant amounts of heat at different levels, i.e. a flat top with a hot section, a warm section, and a cool section.
+
+
+<h4> Speed of Heat Change</h4>
+
+If the way in which variable heat delivery is provided is through changing the temperature of the entire cook top, there will
+	need to be constraints on the speed at which the heating level of the surface changes temperature, as a grill which takes
+	20 min to go from 400 <sup>o</sup>F to 350 <sup>o</sup>F is of very little practical use for cooking multiple things.
+
+The constraints we determined for this were based on going from a sear to a regualar meat cooking level, which gave us
+	a minimum temperature change speed of 0.833 <sup>o</sup>F/sec.
+
+
+---
+Precedent websites:
+
+* <a href="https://inhabitat.com/worlds-first-molten-salt-solar-plant-produces-power-at-night/">Molten Salt Power Plant</a>
+* <a href="https://www.energy.gov/energysaver/solar-water-heaters">Solar Water Heater</a>
+* <a href="https://www.energy.gov/eere/solar/photovoltaics">Photovoltaics</a>
+
+
+</xmp>
+
+<script src="https://strapdownjs.com/v/0.2/strapdown.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/joedf/strapdown-topbar@latest/assets/strapdown/strapdown-topbar.min.js"></script>
+</html>
