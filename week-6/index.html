@@ -14,57 +14,49 @@
 </br>
 <h4> Cooking Sub-Team</h4>
 
-Moving into week six,
-
-* Type of cooking
-* Level of heat
-* Speed of heat change
-
-Once we identified the broad categories of constraints we began to brainstorm the exact constraints we would need and what
-	potential design solutions that would meet those constraints would look like.
+Moving into week six, the cooking team split off to work within other subteams, as those required more focus in the early
+	stages of design.
 
 <h4> Design Integration Team</h4>
 
-Test meals of grilled chicken kabobs, grilled beef, tomatoes and rice, and a quinoa based Tex Mex style dish, were
-	used to determine our constraints. For all of these we quickly realized the common denominator of how heat was provided
-	would be a hot cooking surface, such as one provided by a grill, or diner style flat top, rather than a heated space,
-	such as an oven, or pressure cooker.
-
-This led us to determine that the optimal cooking surface would be diner style flat top, ideally approximately 2 ft x 5 ft,
-	to maximize the amount of cooking that could be accomplished at once, but with the size open to change.
+The Design Integration team focused mainly on the integration of energy collection and energy storage in week six, breaking
+	into sub-sub-teams focused on moving the collector, and transporting the energy from the energy collection device to
+	the energy storage device.
 
 <h4> Energy Transport Methods</h4>
 
-Levels of heat that will be required to heat the grill were again determined using our test meals as bases.<br>
-To fully cook chicken, an internal temperature of at least 145 <sup>o</sup>F is required, which requires a surface temp of at least 325 <sup> o</sup>F.
-To fully cook beef, an internal temperature of at least 160 <sup>o</sup>F is required, which requires a surface temp of at least 350-375 <sup>o</sup>F.
-However, most beef also requires a sear, which requires surface temperatures of up to 400 <sup>o</sup>F. This gives us the upper bound of the temperatures
-	which we want for our grill to be able to achieve.
+My portion of the design integration team was mostly focused on transporting the collected energy from the solar collector
+	to the molten salt battery. Based on the parabolic shape chosen by the energy collection team, we have determined that
+	the standard method of focusing all collected light to a single reflector placed above the center of the solar collector.
 
-For cooking the vegetables required for all of these dishes, one generally wants a steady level of heat delivery at approximately the temperature
-	which the food should eventually reach. As most vegetables are cooked at around the boiling point of water, this would
-	yield a lower temperature requirement of around 212 <sup>o</sup>F.
+The more challenging part of the energy transfer comes in how we direct the beam of collected light into the molten
+	salt battery. We have determined that a reflective tunnel is most likely the best method of this transport, as it avoids
+	the issues of needing to overly concentrate the beam of light which would arise from using fiber optics, and it avoids
+	the potential beam diffusion and safety hazards of simply having the beam shoot uncovered directly through air.
 
-Combining these requirements, we find that we need a cook top surface which is capable of providing different levels of heat,
-	either at different times, or in different spaces, with heating requirements of:
+A mock up of what the tunnel might look like connecting the collector and the battery is shown below (not to scale).
 
-* 212 <sup>o</sup>F
-* 325 <sup>o</sup>F
-* 350 <sup>o</sup>F
-* 400 <sup>o</sup>F
-
-This either necessitates a single small cooking surface, or a larger cooking surface with different areas capable of providing
-	constant amounts of heat at different levels, i.e. a flat top with a hot section, a warm section, and a cool section.
+<img src="./solar tunnel.jpg" alt="solar tunnel" width="200"/>
 
 
-<h4> Speed of Heat Change</h4>
 
-If the way in which variable heat delivery is provided is through changing the temperature of the entire cook top, there will
-	need to be constraints on the speed at which the heating level of the surface changes temperature, as a grill which takes
-	20 min to go from 400 <sup>o</sup>F to 350 <sup>o</sup>F is of very little practical use for cooking multiple things.
+<h4> Energy Collector Size Requirements</h4>
 
-The constraints we determined for this were based on going from a sear to a regualar meat cooking level, which gave us
-	a minimum temperature change speed of 0.833 <sup>o</sup>F/sec.
+Determining the size of the energy collector which we will need is integral to the design which solar collection decides
+	on using for constructing the solar collector. Preliminary calculations based on initial constraints given by the cooking
+	team yielded a need for 7.4 kW of steady energy being delivered from the solar collector, as shown in the calculations
+	below.
+
+<img src="./Heat_calc_1.jpg" alt="heat calculations pg. 1" width="400"/>
+
+
+<img src="./Heat_calc_2.jpg" alt="heat calculations pg. 2" width="400"/>
+
+However, as only around 20 W of this were dedicated to the actual cooking of the chicken, decreasing
+	the size of the cooking surface to one or two "burners" would greatly reduce convective losses, thereby cutting down our
+	energy requirements to closer to 1kW, which could provide a viable solution to this issue.
+
+
 
 
 ---
