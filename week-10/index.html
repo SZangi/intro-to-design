@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<title>Zangi's Documentation for 22.03</title>
+
+<xmp theme="journal" style="display:none;">
+
+<topbar style="display:none;">
+	<item><a href="../index.html">Home</a></item>
+	<item><a href="../about.html">About</a></item>
+	<menu name="Updates">
+		<item><a href="../week-1/index.html">Week 1</a></item>
+		<item><a href="../week-2/index.html">Week 2</a></item>
+		<item><a href="../week-3/index.html">Week 3</a></item>
+		<item><a href="../week-4/index.html">Week 4</a></item>
+		<item><a href="../week-5/index.html">Week 5</a></item>
+		<item><a href="../week-6/index.html">Week 6</a></item>
+		<item><a href="../week-7/index.html">Week 7</a></item>
+		<item><a href="../week-8/index.html">Week 8</a></item>
+		<item><a href="../week-9/index.html">Week 9</a></item>
+		<item><a href="../week-10/index.html">Week 10</a></item>
+		<!-- <item><a href="#">Final Project</a></item> -->
+	</menu>
+</topbar>
+
+<!-- This is a comment, it is ignored by the compiler/interpreter -->
+## Week 10 - Prototyping and Further Modelling
+</br>
+<h4> Solar Collection and Transport</h4>
+
+In week 10, we focused mainly on beginning to prototype our design. In order to begin to prototype we needed to work out
+	the final designs we want to utilize for the solar transfer mechanism, specifically if we wanted to stay with using a bounce
+	mirror or directly project the beam onto the solar battery without a secondary bounce surface as an intermediary. We
+	also finished designing the mounting mechanism for mounting the solar collector onto it's supporting axel in a way
+	which will allow the motors to rotate the dish throughout the day.
+
+We also finished designing the system by which the motors connect to and rotate the solar collector. After considering several
+	mounting systems and attachment methods such as gearing systems and worm screws, we have determined that a simple belt
+	method with the motors mounted on the rotating plate is the best method for changing the elevation angle of the solar
+	collector.
+
+<h5> Solar Collector Mount</h5>
+
+As the solar collector shell will be built from hardening resin and burlap, we have determined that we can 3D print our
+	mounting brackets and directly set the brackets into the resin as it hardens to attach the brackets to the solar
+	collector. The main design constraint beyond the need to fit onto the collector and to hold the axel was that the
+	bracket should be designed in such a way that the collector could be detached from the axel without having to pull
+	the axel out through both brackets.
+
+The simplest solution to this was to design the mounting brackets in a manner similar to C-clamps, with a screw applying
+	pressure to the axel once it has slotted into its mounting point, and both keeping the axel attached to the collector
+	and preventing the axel from rotating in the bracket. By forcing the axel to be static relative to the collector, we
+	have also met the design constraint that the solar collector needs to rotate with our axel so that our solar tracking
+	system will be able to function. A 3D model of the bracket is shown below.
+
+<img src ="./Bracket.jpg" alt = "mounting bracket" width = "300"/>
+
+Additionally, we have determined that the axel bearings on the support posts should be ball bearings mounted in angle brackets,
+	as opposed to pillow bearings as originally intended. This is due to the price of pillow bearings relative to most ball
+	bearings as well as the relative availability of the standard ball bearings. A CAD model of the new joint method is shown below.
+
+<img src ="./Axel Bearings.jpg" alt = "bearings" width = "500"/>
+
+Other members of the solar tracking team refined the energy transfer mechanism, and decided to scrap the bounce mirror idea
+	in leu of directly shining the beam onto the side of the molten salt battery which is exposed. A picture of our current
+	full assembly is shown below.
+
+<img src ="./Azimuthal Assembly.jpg" alt = "assembly" width = "300"/>
+
+<h4> Prototyping</h4>
+
+This week we also began prototyping important parts of our design in the beaverworks shop. We began by laser cutting the
+	gears we will need to rotate the base of the solar collector from various widths of delrin, a plastic polymer, to determine
+	the laser cutter's efficacy in fabricating the parts we need. From this we have determined that our gears will best
+	be constructed of two laminated gears of 0.2" delrin, as opposed to one piece of 0.375" delrin as we initially planned.
+
+We also began laser cutting the parts necessary to construct the plywood base and motor housing which the solar collector
+	and molten salt battery assemblies rest on. We encountered a few challenges with cutting the plywood of a necessary
+	thickness in the lase cutter, but eventually we were successful, and the results of our prototyping are shown below.
+
+<img src ="./Plywood Base.jpg" alt = "plywood prototype" width = "300"/>
+
+Pictured here is the plywood base, which corresponds to the 24" circular discs as well as the central motor housing pictured
+	in the CAD of our assembly shown above.
+
+
+---
+Precedent websites:
+
+* <a href="https://inhabitat.com/worlds-first-molten-salt-solar-plant-produces-power-at-night/">Molten Salt Power Plant</a>
+* <a href="https://www.energy.gov/energysaver/solar-water-heaters">Solar Water Heater</a>
+* <a href="https://www.energy.gov/eere/solar/photovoltaics">Photovoltaics</a>
+
+
+</xmp>
+
+<script src="https://strapdownjs.com/v/0.2/strapdown.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/joedf/strapdown-topbar@latest/assets/strapdown/strapdown-topbar.min.js"></script>
+</html>
